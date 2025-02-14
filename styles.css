@@ -163,6 +163,15 @@ h1 {
     color: white;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.92); 
+    z-index: 1000;
+}
+
 .navbar-nav .nav-link {
     color: white;
     transition: 0.3s;
